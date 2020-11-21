@@ -1,0 +1,53 @@
+[
+    {
+        "disease": "Appendicitis",
+        "symptoms": [
+            "Dull pain near the navel or the upper abdomen that becomes sharp as it moves to the lower right abdomen",
+            "Loss of appetite",
+            "Nausea and/or vomiting soon after abdominal pain begins",
+            "Abdominal swelling",
+            "Fever of 99-102 degrees Fahrenheit"
+        ],
+        "notice": "That are the symptoms of appendicitis, go to Emergency."
+    },
+    {
+        "disease": "Heart attack",
+        "symptoms": [
+            "severe pain in the left chest area / behind the sternum",
+            "shortness of breath",
+            "anxiety"
+        ],
+        "notice": "Call an ambulance, calm the sick, raise the upper body, loosen tight clothing (tie, collar, etc.)"
+    },
+    {
+        "disease": "Stroke",
+        "symptoms": [
+            "Visual impairment",
+            "Speech and language comprehension disorder",
+            "Paralysis, numbness",
+            "Vertigo with unsteady gait",
+            "Very severe headache"
+        ],
+        "notice": "Whenever a stroke is suspected, it should be viewed as a life-threatening emergency. It is therefore particularly important to recognize a stroke quickly."
+    },
+    {
+        "disease": "Chronic kidney disease",
+        "symptoms": [
+            "oedema",
+            "blood in urine",
+            "muscle cramps",
+            "weight loss and poor appetite"
+        ],
+        "notice": "See your GP if you have persistent or worrying symptoms that you think could be caused by kidney disease"
+    },
+    {
+        "disease": "Bronchial asthma",
+        "symptoms": [
+            "Shortness of breath",
+            "Tightness of chest",
+            "Wheezing",
+            "Excessive coughing or a cough that keeps you awake at night"
+        ],
+        "notice": "Contact your doctor"
+    }
+]

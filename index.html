@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="rotesKreuz.js">
+    </script>
+    <script src="templates.js"></script>
+</head>
+
+<body onload="load(),showDialogBoxSymptoms()">
+    <div class="header">
+        <img class="redCross" src="redCross.png">
+        <h2 class="PageName">RedCross</h2>
+        <h2 class="headerText">Find Specialists, Set Up Online Appointments, Identify Emergencys that can save your
+            Life! </h2>
+    </div>
+    <div class="mainPageCont">
+        <div class="mainPage" id="mainPage">
+            <label class="searchSpecialist" for="specialist">Do you want to know what the other Patients about the
+                Docs
+                say?</label>
+            <select id="specialists" class="specialistsSelect">
+                <option>Radiologie</option>
+                <option>Allgemeinmedizin</option>
+                <option>Zahnmedizin</option>
+                <option>Dermatologie, Allgemeinmedizin</option>
+                <option>Zahnmedizin, Mund-Kiefer-Gesichtschirurgie</option>
+            </select>
+            <button class="chooseSpecialist" onclick="chooseSpecialist()">Submit</button>
+            <div class="mainPageBewertung" id="mainPageBewertung"></div>
+        </div>
+        <div id="images" class="images"></div>
+        <div id="popUpDateGeneral" class="popUpDate"></div>
+        <div id="test" class="test"></div>
+        <div id="idHtml" class="idHtml"></div>
+        <div class="profilesDR" id="idHtmlSecond">
+            <button id="next" class="next" onclick="goBack()">back</button>
+            <button id="next" class="next" onclick="goNext()">next</button>
+        </div>
+        <div id="chatbot" class="chatbot">
+            <span class="spanAnswer" id="spanAnswer"></span>
+        </div>
+
+        <div class="symptomsApp">
+            <span class="searchSpecialist">Have you specify Symptoms?Then use our App to guide you to a
+                specialist</span>
+            <div class="checkbox" id="dialogBox"></div>
+            <div id="symptomsBox" class="symptomsBox" style="display: none;"></div>
+            <button id="showDialogBox" class="showDialogBox" onclick="filterSymptoms()">OK</button>
+            <div class="checkDoc" id="checkDoc">
+                <button class="closeBtn" id="closeBtn" onclick="closeInformationDialogBox()">Close</button>
+            </div>
+            <div id="btnCloseTheWindowSymptoms"></div>
+            <h2 id="diseaseInformationName"></h2>
+            <div id="diseaseInformation" class="diseaseInformation" style="display: none;">
+
+            </div>
+            <div id="diseaseInformationBtnClose"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div> <a href="dataProtect.html">Data Protection</a></div>
+        <div> <a href="imprint.html">Imprint</a></div>
+    </div>
+</body>
+
+</html>

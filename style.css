@@ -1,0 +1,2067 @@
+body {
+    margin: 0;
+}
+
+a {
+    margin-bottom: 3%;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    cursor: pointer;
+}
+
+.headerText {
+    color: rgb(211, 0, 0);
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+span {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 22px;
+}
+
+label {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+select {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+}
+
+button {
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.a1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2 {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profilImg {
+    width: 35vh;
+    height: 30vh;
+    object-fit: cover;
+    border: 2px solid rgb(9, 0, 87);
+    border-radius: 10px;
+}
+
+.profiles {
+    border-radius: 1vh;
+    width: 160vh;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainPage {
+    display: flex;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+.idHtml {
+    position: absolute;
+    /* display: flex; */
+    /* justify-content: center; */
+    top: 64%;
+    left: 10%;
+    /* margin-bottom: 3%; */
+    align-items: center;
+    z-index: 3;
+}
+
+.header {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    height: 80px;
+}
+
+li {
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: start;
+}
+
+.openingHours {
+    margin-left: -50%;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+}
+
+.adressText {
+    font-size: 20px;
+}
+
+.redCross {
+    width: 80px;
+    height: 80px;
+}
+
+.PageName {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+
+.checkbox {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    display: none;
+}
+
+.checkDoc {
+    border: 1px solid black;
+    width: 50vh;
+    height: 20vh;
+    border-radius: 5px;
+    margin-top: 3%;
+    display: none;
+}
+
+.diseaseInformation {
+    border: 2px solid red;
+    padding: 13px;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 17px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.symptomsBox {
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: azure;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.symptomsApp {
+    padding: 10px;
+    margin-top: 25vh;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgDocs {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nameAndImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appointment {
+    background-color: burlywood;
+    padding: 7px;
+}
+
+.popUpDate {
+    padding: 25px 15px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    display: none;
+    height: 40vh;
+    width: 32vh;
+    z-index: 1;
+}
+
+.test {
+    background-color: darkgrey;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.chatbot {
+    width: 40vh;
+    border: 1px solid black;
+    height: 45vh;
+    position: fixed;
+    bottom: 0;
+    right: 5vh;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+.chatbotInput {
+    position: fixed;
+    right: 13vh;
+    bottom: 2vh;
+    width: 32vh;
+    padding: 6px;
+}
+
+.chatbotText {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.chatbotSend {
+    position: fixed;
+    right: 8vh;
+    bottom: 2vh;
+    width: 30px;
+    height: 22px;
+    padding: 0px;
+    height: 30px;
+    border-radius: 40%;
+    background-color: darkslateblue;
+}
+
+.setDate {
+    color: blue;
+    margin-left: 40%;
+}
+
+.inputCont {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.buttonsXandSave {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Savebtn {
+    background-color: darkcyan;
+    width: 32vh;
+}
+
+.closeContactFormular {
+    background-color: darkcyan;
+    position: fixed;
+    bottom: 43vh;
+    right: 80vh;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    z-index: 2;
+}
+
+.contactForm {
+    background-color: darkslateblue;
+    position: fixed;
+    bottom: 100px;
+    width: 40vh;
+    right: 39px;
+}
+
+.showDialogBox {
+    display: block;
+    width: 40vh;
+    /* padding: 8px; */
+    margin-left: 10px;
+}
+
+.searchSpecialist {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.back, .next {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    background-color: rgb(185, 179, 214);
+    color: darkblue;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.positionProfiles {
+    position: absolute;
+    left: 10%;
+    z-index: 0;
+}
+
+.d-none {
+    display: none;
+}
+
+.profilesDR {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.h3 {
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.starPic {
+    width: 21vh;
+    object-fit: cover;
+}
+
+.rating {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-mainPage {
+    display: flex;
+}
+
+.footer {
+    background-color: rgb(160, 160, 255);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: black;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+.bodyDP, .bodyIM {
+    padding: 15px;
+}
+
+.dataProtect {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.DP {
+    margin-left: 2%;
+    margin-top: 9%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.DPh2 {
+    font-family: sans-serif;
+}
+
+.impressum {
+    margin-top: 10%;
+}
+
+@media(min-device-width: 1015px) and (max-device-width: 1100px) {
+    .mainPageCont {
+        width: 100%;
+    }
+    .symptomsApp {
+        margin-top: 30vh;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 150vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 13px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 12%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .chooseSpecialist {
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 12vh;
+        right: 12vh;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 20%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 75vh;
+        width: 30px;
+        height: 30px;
+        bottom: 41vh;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 52%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 7px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+        width: 100%;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+@media(min-device-width: 1016px) and (max-device-width: 1100px) {
+    .profiles {
+        width: 150vh;
+    }
+}
+
+@media(min-device-width: 981px) and (max-device-width: 1015px) {
+    .mainPageCont {
+        width: 100%;
+    }
+    .symptomsApp {
+        margin-top: 30vh;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 145vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 13px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 12%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .chooseSpecialist {
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 12vh;
+        right: 12vh;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 20%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 75vh;
+        width: 30px;
+        height: 30px;
+        bottom: 41vh;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 52%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 7px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+        width: 100%;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+@media(min-device-width: 921px) and (max-device-width: 980px) {
+    .mainPageCont {
+        width: 100%;
+    }
+    .symptomsApp {
+        margin-top: 30vh;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 135vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 13px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 12%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .chooseSpecialist {
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 12vh;
+        right: 12vh;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 20%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 75vh;
+        width: 30px;
+        height: 30px;
+        bottom: 41vh;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 52%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 7px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+        width: 100%;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+@media(min-device-width: 821px) and (max-device-width: 920px) {
+    .mainPageCont {
+        width: 100%;
+    }
+    .symptomsApp {
+        margin-top: 30vh;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 120vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 12%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .chooseSpecialist {
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 9%;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 20%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 48vh;
+        width: 30px;
+        height: 30px;
+        bottom: 41vh;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 52%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 7px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+@media(min-device-width: 721px) and (max-device-width: 820px) {
+    .mainPageCont {
+        width: 135vh;
+    }
+    .symptomsApp {
+        margin-top: 30vh;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 95vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 11px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 12%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .chooseSpecialist {
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 13%;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 20%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 48vh;
+        width: 30px;
+        height: 30px;
+        bottom: 41vh;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 52%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 7px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+        width: 135vh;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+    .footer {
+        width: 135vh;
+    }
+}
+
+@media(min-device-width: 621px) and (max-device-width: 720px) {
+    .mainPageCont {
+        width: 120vh;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 85vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 11px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .chooseSpecialist {
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 13%;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 35%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .nameAndImg {
+        width: 17vh;
+        height: 42vh;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 30vh;
+        width: 30px;
+        height: 30px;
+        bottom: 41vh;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 52%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 7px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+        width: 120vh;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+    .footer {
+        width: 120vh;
+    }
+}
+
+@media(min-device-width: 521px) and (max-device-width: 620px) {
+    .mainPageCont {
+        width: 105vh;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 75vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 11px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .chooseSpecialist {
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 13%;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 35%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .nameAndImg {
+        width: 17vh;
+        height: 42vh;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 30vh;
+        width: 30px;
+        height: 30px;
+        bottom: 41vh;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 52%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 7px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+        width: 105vh;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+    .footer {
+        width: 101vh;
+    }
+}
+
+@media(min-device-width: 451px) and (max-device-width: 520px) {
+    .mainPageCont {
+        width: 92vh;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 75vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        width: 6vh;
+        height: 6vh;
+        margin-left: 1px;
+        margin-right: 449px;
+        font-size: 9px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .chooseSpecialist {
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 7%;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 35%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .nameAndImg {
+        width: 17vh;
+        height: 42vh;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 20vh;
+        width: 30px;
+        height: 30px;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 52%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 7px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+        width: 92vh;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+}
+
+@media(min-device-width: 351px) and (max-device-width: 450px) {
+    .mainPageCont {
+        width: 92vh;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 75vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        width: 6vh;
+        height: 6vh;
+        margin-left: 1px;
+        margin-right: 449px;
+        font-size: 9px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .chooseSpecialist {
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        width: 500px;
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 9%;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 35%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .nameAndImg {
+        width: 17vh;
+        height: 42vh;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 20vh;
+        width: 30px;
+        height: 30px;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 61%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 7px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+        width: 92vh;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+}
+
+@media(min-device-width: 251px) and (max-device-width: 350px) {
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 75vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 15vh;
+        height: 15vh;
+    }
+    .back, .next {
+        width: 6vh;
+        height: 6vh;
+        margin-left: 1px;
+        margin-right: 436px;
+        font-size: 9px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-right: 10px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+        margin-left: 75px;
+    }
+    button {
+        margin-left: -215px;
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        width: 500px;
+        height: 170px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 11%;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 50%;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .nameAndImg {
+        width: 17vh;
+        height: 42vh;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 20vh;
+        width: 30px;
+        height: 30px;
+    }
+    .popUpDate {
+        padding: 25px 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        position: fixed;
+        left: 40%;
+        top: 70%;
+        display: none;
+        height: 40vh;
+        width: 32vh;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 235px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+    .goBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .closeBtn {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .PageName {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 20px;
+        left: 85px;
+    }
+    .header {
+        height: 11vh;
+        width: 92vh;
+    }
+    .redCross {
+        width: 60px;
+        height: 60px;
+    }
+    .headerText {
+        font-size: 16px
+    }
+    .impressum {
+        margin-top: 20%;
+    }
+    .DP {
+        margin-left: 2%;
+        margin-top: 20%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .dataProtect {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:250px) {
+    .header {
+        width: 505px;
+    }
+    .images {
+        width: 100%;
+    }
+    .profiles {
+        width: 75vh;
+        height: 55vh;
+    }
+    .profilImg {
+        width: 9vh;
+        height: 9vh;
+    }
+    .back, .next {
+        width: 5vh;
+        height: 5vh;
+        margin-left: 4px;
+        margin-right: 438px;
+        font-size: 8px;
+    }
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 30%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .searchSpecialist {
+        font-size: 16px;
+    }
+    .specialistsSelect {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-right: 10px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+        margin-left: 115px;
+    }
+    button {
+        margin-left: -167px;
+        margin-top: 10px;
+    }
+    .imgDocs {
+        width: 70px;
+        height: 70px;
+    }
+    .images {
+        width: 500px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .adressText {
+        font-size: 14px;
+    }
+    .positionProfiles {
+        left: 14%;
+    }
+    .footer {
+        width: 92vh;
+    }
+    .profilesDR {
+        margin-top: 65%;
+    }
+    h3 {
+        margin-top: -3px;
+    }
+    .nameAndImg {
+        width: 10vh;
+    }
+    .appointment {
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .closeContactFormular {
+        right: 20vh;
+        width: 30px;
+        height: 30px;
+    }
+    .formular {
+        bottom: 0;
+    }
+    .popUpDate {
+        bottom: 10;
+        top: 75%;
+    }
+    .Savebtn {
+        position: absolute;
+        left: 183px;
+        bottom: 5px;
+        height: 28px;
+        padding: 0;
+    }
+    .contactForm {
+        bottom: 80;
+    }
+}
